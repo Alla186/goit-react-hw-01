@@ -1,0 +1,35 @@
+.friendList {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* list-style: none; */
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-top: 16px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  margin-top: 0px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
