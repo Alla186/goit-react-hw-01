@@ -1,0 +1,19 @@
+.friendList {
+  margin-top: 32px;
+  list-style: none;
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.list {
+  padding: 20px;
+  border: 2px solid rgb(16, 1, 1);
+  border-radius: 4px;
+}
+.statusOnline {
+  color: chartreuse;
+}
+.statusOffline {
+  color: crimson;
+}

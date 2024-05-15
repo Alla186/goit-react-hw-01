@@ -3,16 +3,15 @@ p {
 }
 
 .profile {
-  max-width: 30vw;
+  max-width: 100%;
+  margin: 20px;
   padding: 48px 16px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color: hsla(215, 98%, 79%, 0.3);
   border-radius: 24px;
-  border: 2px solid blanchedalmond;
-  box-shadow: 10px 12px 12px 0px #cab1b14d;
+  border: 2px solid rgb(16, 1, 1);
 }
 .description {
   display: flex;
@@ -32,9 +31,10 @@ p {
   margin-top: 10px;
 }
 .name {
-  font-size: 36px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #524a4d;
 }
 .tag {
   font-size: 24px;
@@ -51,8 +51,6 @@ p {
   padding-left: 0;
   display: flex;
   justify-content: space-between;
-
-  /* flex-wrap: wrap; */
 }
 .stats > li {
   width: calc(100% / 3 - 32px);
@@ -65,7 +63,7 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-shadow: inset 2px 2px 5px #8ea2ec, inset -5px -5px 10px #96d3f2;
 }
 
 .label {
